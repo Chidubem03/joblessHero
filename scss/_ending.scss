@@ -10,9 +10,11 @@ section.ending{
     padding-top: 2.5rem;
 
     h3{
-       position: absolute;
-       bottom: 20rem;
-       left: 4.5rem;
+        position: relative;
+        bottom: 0;
+        left: -15rem;
+        display: block;
+        margin: 10px 10px;
        text-transform: capitalize;
        cursor: default;
 
