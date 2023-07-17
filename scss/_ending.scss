@@ -1,0 +1,268 @@
+
+section.ending{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+    padding-bottom: 3rem;
+    padding-top: 2.5rem;
+
+    h3{
+       position: absolute;
+       bottom: 14rem;
+       left: 4.5rem;
+       text-transform: capitalize;
+       cursor: default;
+
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 35%;
+        gap: 2rem;
+        padding-bottom: 1rem;
+
+        .first-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 28%;
+            height: 100%;
+            position: relative;
+            border-radius: 10px;
+            background: $firstcontainer-color;
+            color: $text-color;
+            padding: 1rem 0;
+
+            .first-content{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 0.6rem;
+                width: 70%;
+                cursor: default;
+
+                img{
+                    background: $secondary-color;
+                    padding: 8px;
+                    border-radius: 4px;
+                }
+
+                .firstcontainer-header{
+                    display: flex;
+                    flex-direction: column;
+
+                    h1{
+                        width: 100%;
+                        font-size: 1rem;
+                        text-transform: capitalize;
+                        font-weight: weight(regular);
+                    }
+                    h2{
+                        font-size: 1rem;
+                        font-weight: weight(lighter);
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .p1{
+                width: 100%;
+                text-align: center;
+                font-weight: weight(lighter);
+                padding: 10px 10px;
+                border-bottom: 1px solid $p1-color;
+                cursor: default;
+            }
+            .last-content{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                padding: 1rem 0;
+                gap: 2rem;
+
+                button{
+                    padding: 5px 15px;
+                    border-radius: 1.5rem;
+                    border: none;
+                    background: $button3-color;
+                    color: $text-color;
+                    text-transform: capitalize;
+                    cursor: pointer;
+                }
+
+                .p2{
+                    font-weight: weight(bold);
+                    width: 50%;
+                    cursor: default;
+                }
+            }
+
+        }
+        .second-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 28%;
+            height: 100%;
+            position: relative;
+            border-radius: 10px;
+            background: $secondary-color;
+            color: #000;
+            padding: 1rem 0;
+
+            .first-content{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 0.6rem;
+                width: 70%;
+                cursor: default;
+
+                img{
+                    background: $secondary-color;
+                    padding: 8px;
+                    border-radius: 4px;
+                }
+
+                .firstcontainer-header{
+                    display: flex;
+                    flex-direction: column;
+
+                    h1{
+                        width: 100%;
+                        font-size: 1rem;
+                        text-transform: capitalize;
+                        font-weight: weight(regular);
+                    }
+                    h2{
+                        font-size: 1rem;
+                        font-weight: weight(lighter);
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .p1{
+                width: 85%;
+                text-align: left;
+                font-weight: weight(lighter);
+                padding: 10px 10px;
+                border-bottom: 1px solid $button4-color;
+                cursor: default;
+            }
+            .last-content{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                padding: 1rem 0;
+                gap: 2.5rem;
+
+                button{
+                    padding: 5px 15px;
+                    border-radius: 1.5rem;
+                    border: none;
+                    background: $button4-color;
+                    color: #000;
+                    text-transform: capitalize;
+                    cursor: pointer;
+                }
+
+                .p2{
+                    font-weight: weight(bold);
+                    width: 50%;
+                    cursor: default;
+                }
+            }
+
+        }
+        .third-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 28%;
+            height: 100%;
+            position: relative;
+            border-radius: 10px;
+            background: $secondary-color;
+            color: #000;
+            padding: 1rem 0;
+
+            .first-content{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 0.5rem;
+                width: 70%;
+                cursor: default;
+
+                img{
+                    background: $secondary-color;
+                    border-radius: 4px;
+                }
+
+                .firstcontainer-header{
+                    display: flex;
+                    flex-direction: column;
+
+                    h1{
+                        width: 100%;
+                        font-size: 1rem;
+                        text-transform: capitalize;
+                        font-weight: weight(regular);
+                    }
+                    h2{
+                        font-size: 1rem;
+                        font-weight: weight(lighter);
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .p1{
+                width: 100%;
+                text-align: left;
+                font-weight: weight(lighter);
+                padding: 10px 10px;
+                border-bottom: 1px solid $button4-color;
+                cursor: default;
+            }
+            .last-content{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                padding: 1rem 0;
+                gap: 2rem;
+
+                button{
+                    padding: 5px 15px;
+                    border-radius: 1.5rem;
+                    border: none;
+                    background: $button4-color;
+                    color: #000;
+                    text-transform: capitalize;
+                    cursor: pointer;
+                }
+
+                .p2{
+                    font-weight: weight(bold);
+                    width: 50%;
+                    cursor: default;
+                }
+            }
+
+        }
+               
+                    
+      }
+    }

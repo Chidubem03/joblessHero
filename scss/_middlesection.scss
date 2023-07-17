@@ -1,0 +1,47 @@
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 40%;
+    width: 100%;
+    padding: 1rem 0;
+
+    h1{
+        font-weight: weight(mid-large);
+        line-height: 2rem;
+        width: 34%;
+        text-align: center;
+        font-size: 1.5rem;
+        cursor: default;
+    }
+
+    p{
+        font-weight: weight(lighter);
+        font-size: 1rem;
+        text-align: center;
+        width: 36%;
+        line-height: 2rem;
+        cursor: default;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        button{
+            background: $button2-color;
+            color: $text-color;
+            padding: 13px 10px;
+            border: none;
+            border-radius: 1.5rem;
+            text-transform: capitalize;
+            font-weight: weight(regular);
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+}

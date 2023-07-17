@@ -1,0 +1,49 @@
+$primary-color: rgb(215, 230, 243);
+$secondary-color: white;
+$buttonborder-color: rgb(212, 206, 206);
+$button2-color: rgb(21, 21, 100);
+$text-color: white;
+$firstcontainer-color: rgb(21, 21, 100);
+$p1-color: rgb(45, 45, 171);
+$button3-color: rgb(32, 48, 123);
+$button4-color: rgb(236, 230, 230);
+$black-color: rgb(0,0,0);
+$modal-color: rgb(145, 197, 241);
+$header-color: rgb(151, 200, 243);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$font-weight : (
+    "lighter" : 250,
+    "bold" : 400,
+    "regular" : 600,
+    "mid-large" : 700,
+    "large" : 900,
+    "larger" : 1200,
+);
+
+@function weight($weight-name){
+    @return map-get($font-weight, $weight-name )
+};
+
+@mixin media-md{
+    @media screen and (max-width : 650px) {
+        @content;
+    }
+};
+@mixin media-sm{
+    @media screen and (max-width : 450px) {
+        @content;
+    }
+};
+@mixin media-lg{
+    @media screen and (max-width : 1000px) {
+        @content
+    }
+};
+@mixin transition-ease{
+ transition: all ease-in-out 0.9s;
+}
