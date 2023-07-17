@@ -10,7 +10,8 @@ const signupBtn= document.querySelector('[signup]');
 const myName= document.querySelector('[myname]');
 const myPassword= document.querySelector('[mypassword]');
 const myEmail= document.querySelector('[myemail]');
-const mySecondPassword= document.querySelector('[secondpassword]')
+const mySecondPassword= document.querySelector('[secondpassword]');
+const myHeader= document.querySelector('.start');
 
 let showMenu = false;
 
@@ -34,9 +35,13 @@ function toggleMenu(){
 }
 signUp.addEventListener('click', function(){
     modal.style.display = "flex";
+    menuNav.classList.remove('open');
+    myHeader.style.display = "none";
 })
 outsideBox.addEventListener('click', function(){
     modal.style.display = "none";
+    menuNav.classList.add('open');
+    myHeader.style.display = "flex";
 })
 signupBtn.addEventListener('click', function(){
     if(myName.value == ""){
@@ -56,7 +61,7 @@ signupBtn.addEventListener('click', function(){
 signupBtn.addEventListener('click', validateForm);
 function validateForm() {
     if(myPassword.value !== mySecondPassword.value){
-        window.alert("Password do not match!")
+        window.alert("Password do not match!");
     }else if(typeof myName.value !== string){
         window.alert("please re-enter your name");
     }
@@ -64,5 +69,7 @@ function validateForm() {
 document.addEventListener('keydown', (e)=>{
     if(event.key === "Escape"){
         modal.style.display = "none";
+         myHeader.style.display = "flex";
+        menuNav.classList.add('open');
     }
 });
